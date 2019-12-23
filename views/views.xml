@@ -1,0 +1,16 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="view_vit_disposal_form">
+            <field name="name">view_vit_disposal_form</field>
+            <field name="model">vit.disposal</field>
+            <field name="type">form</field>
+            <field name="priority" eval="8"/>
+            <field name="inherit_id" ref="vit_asset.view_vit_disposal_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//notebook/page[2]/field/tree/field[@name='value_residual']" position="after">
+                    <field name="disposal_tax"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
