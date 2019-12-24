@@ -10,6 +10,11 @@
                 <xpath expr="//notebook/page[2]/field/tree/field[@name='value_residual']" position="after">
                     <field name="disposal_tax"/>
                 </xpath>
+                <!-- <group>
+                    <field name="profit_untaxed"/>
+                    <field name="tax_value"/>
+                    <field name="net_profit"/>
+                </group> -->
             </field>
         </record>
     </data>

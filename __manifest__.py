@@ -3,9 +3,9 @@
     'name': "vit_asset_tax",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
-
+        Dependency om_account_accountant as Accounting module to vit_asset as Asset module including function taxes, analytic account, assets, products, and etc.
+        Module om_account_accountant(Accounting) and vit_asset(Asset) must be installed to use all the function in module vit_asset_tax.""",
+        
     'description': """
         Long description of module's purpose
     """,
